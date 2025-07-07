@@ -23,6 +23,8 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
+    namespace 'com.zobayer.esewa_pnp'
+
     compileSdkVersion 28
 
     defaultConfig {
